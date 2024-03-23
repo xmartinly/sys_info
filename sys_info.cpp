@@ -27,6 +27,31 @@ void SysInfo::get_info() {
     qDebug() << "get_info";
 }
 
+QStringList SysInfo::get_cpu_usage() {
+    QStringList cpu_usage;
+    return cpu_usage;
+}
+
+QStringList SysInfo::get_cpu_temp() {
+    QStringList cpu_temp;
+    return cpu_temp;
+}
+
+QStringList SysInfo::get_cpu_fan_speed() {
+    QStringList cpu_fan_speed;
+    return cpu_fan_speed;
+}
+
+QStringList SysInfo::get_mem_usage() {
+    QStringList mem_usage;
+    return mem_usage;
+}
+
+QStringList SysInfo::get_gpu_usage() {
+    QStringList gpu_usage;
+    return gpu_usage;
+}
+
 void SysInfo::init_tbl() {
     qDebug() << "init_tbl";
 }
